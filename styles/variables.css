@@ -1,4 +1,38 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+  /* Цвета */
+  --accent-color: #FF0070;
+  --main-color: #F1B2CE;
+  --title-color: #DB00FF;
+  --title-decor-bg: #FF0070;
+  --title-decor-text: #000028;
+  --bg-color: #000028;
+  --button-hover-border: rgba(255, 0, 112, 0.4);
+  --link-shadow: #FF0070;
+  --link-hover-color: #F1B2CE;
+  --section-title-color: var(--main-color);
+  
+  /* Фоны */
+  --bg-image: url(../images/cover-image-dark.png);
+  
+  /* Шрифты */
+  --font-family: 'IBM Plex Mono', monospace;
+  --font-size-regular: 18px;
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+  
+  /* Размеры */
+  --button-height: 26px;
+  --button-padding-inline: 13px;
+  --title-line-height: 83%;
+  --title-font-size-mobile: 116px;
+  --title-font-size-desktop: 157px;
+  
+  /* Отступы */
+  --page-padding: 10px;
+  --mobile-min-height: 668px;
+  --tablet-min-height: 1024px;
+  --desktop-min-height: 768px;
+  --card-gap: 20px;
+  --section-gap: 50px;
+  --content-gap: 20px;
+}
