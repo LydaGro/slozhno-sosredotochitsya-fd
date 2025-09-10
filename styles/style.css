@@ -1,5 +1,9 @@
 .page {
   background-color: var(--bg-color);
+  background-image: var(--bg-image);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 /* Декоративные уголки */
@@ -281,7 +285,7 @@ a:focus-visible {
 
 
 /* Медиазапрос для планшетов */
-@media (width >= 768px)  {
+@media (width >= 768px) {
   :root {
     --page-padding: 10px;
   }
@@ -406,7 +410,6 @@ a:focus-visible {
     padding-right: 10px;
   }
 
-    
   .header__theme-menu {
     justify-self: center;
     align-self: start;
@@ -440,11 +443,6 @@ a:focus-visible {
     grid-template-columns: repeat(3, 1fr); 
     gap: 20px;
     margin: 0px;
-  }
-
-  .gallery__images {
-    gap: 20px;
-    margin-top: 10px;
   }
 
   .footer {
