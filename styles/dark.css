@@ -9,19 +9,12 @@
   --button-hover-border: rgba(255, 0, 112, 0.4);
   --link-shadow: #FF0070;
   --section-title-color: #FF0070;
+  --rec-display: block;
+
+  --decor-color: #353430; 
+  --button-border: transparent;
+  --button-border-hover: rgba(50, 49, 45, 0.4);
+  --button-border-active: #353430;
+  --link-focus-outline: #353430;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --accent-color: #FF0070;
-    --main-color: #F1B2CE;
-    --title-color: #DB00FF;
-    --title-decor-bg: #FF0070;
-    --title-decor-text: #000028;
-    --bg-color: #000028;
-    --bg-image: url(../images/cover-image-dark.png);
-    --button-hover-border: rgba(255, 0, 112, 0.4);
-    --link-shadow: #FF0070;
-    --section-title-color: #FF0070;
-  }
-}

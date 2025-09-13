@@ -25,6 +25,7 @@
   --button-padding-inline: 13px;
   --title-line-height: 83%;
   --title-font-size-mobile: 116px;
+  --title-font-preferred: 20vw;
   --title-font-size-desktop: 157px;
   
   /* Отступы */
@@ -35,4 +36,22 @@
   --card-gap: 20px;
   --section-gap: 50px;
   --content-gap: 20px;
+
+  /* REC элемент */
+  --rec-display: block;
+
+  --accent-color: #353430;
+  --main-color: #353430;
+  --title-color: #FFC2E6;
+  --title-decor-bg: #FF8DCB;
+  --title-decor-text: #353430;
+  --bg-color: #FFF1F7;
+  --bg-image: url(../images/cover-image-light.png);
+  --button-hover-border: rgba(50, 49, 45, 0.4);
+  --link-shadow: #FF8DCB;
+  --section-title-color: #353430;
+  --rec-display: none;
+  --link-shadow-footer-desktop: #FF0070;
 }
+    
+  
