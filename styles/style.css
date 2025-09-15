@@ -107,7 +107,7 @@
 }
 
 .header__theme-menu-button:focus {
-  outline: none;
+  outline: none; 
 } 
 
 .header__theme-menu-button:focus-visible {
@@ -209,7 +209,6 @@
 }
 
 .article__link:focus-visible {
-  border: 1px solid currentColor;
   outline: 1px solid currentColor;
   opacity: 1;
 }
@@ -326,7 +325,7 @@
 
   /* Третья секция */
   .section-advices {
-    grid-template-columns:  1fr 2.06fr;
+    grid-template-columns:  1fr 2fr;
   }
 
   .section-advices__grid {
@@ -417,7 +416,7 @@
     
      /* Первая секция на десктопе */
   .section-why {
-    grid-template-columns: 1fr 2,08fr;
+    grid-template-columns: 1fr 2.06fr;
     gap:10px;
   }
 
@@ -430,7 +429,7 @@
 
   /* Третья секция на десктопе */
   .section-advices {
-    grid-template-columns: 1fr 2,06fr;
+    grid-template-columns: 1fr 2.06fr;
   }
 
   .section-advices__grid {
@@ -450,3 +449,4 @@
     padding-top: 26px;
   }
   }
+/* 

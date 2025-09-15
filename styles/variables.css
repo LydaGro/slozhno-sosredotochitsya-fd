@@ -39,19 +39,6 @@
 
   /* REC элемент */
   --rec-display: block;
-
-  --accent-color: #353430;
-  --main-color: #353430;
-  --title-color: #FFC2E6;
-  --title-decor-bg: #FF8DCB;
-  --title-decor-text: #353430;
-  --bg-color: #FFF1F7;
-  --bg-image: url(../images/cover-image-light.png);
-  --button-hover-border: rgba(50, 49, 45, 0.4);
-  --link-shadow: #FF8DCB;
-  --section-title-color: #353430;
-  --rec-display: none;
-  --link-shadow-footer-desktop: #FF0070;
 }
     
   
