@@ -12,11 +12,6 @@
   --section-title-color: #353430;
   --rec-display: none;
   --link-shadow-footer-desktop: #FF0070;
-  --decor-color: #353430; 
-  --button-border: transparent;
-  --button-border-hover: rgba(50, 49, 45, 0.4);
-  --button-border-active: #353430;
-  --link-focus-outline: #353430;
 }
 
 @media (prefers-color-scheme: light) {
@@ -32,6 +27,6 @@
     --link-shadow: #FF8DCB;
     --section-title-color: #353430;
     --rec-display: none;
-    --link-shadow-footer-desktop: #FF0070;
+    --link-shadow-footer-desktop: #FF0070; 
   }
 }

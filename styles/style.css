@@ -45,7 +45,7 @@
   align-items: start;
   padding: var(--page-padding);
   gap: 10px;
-  min-height: 100vh;
+  min-block-size: max(100vh, var(--mobile-min-height));
 }
 
 .header__rec {
@@ -277,8 +277,7 @@
   }
 
   .header {
-    grid-template-rows: 1fr min-content 1fr;
-    
+    min-block-size: max(100vh, var(--tablet-min-height));
     padding-right: 20px;
   }
 
@@ -294,7 +293,6 @@
   }
 
   .header__lead {
-    align-self: center;
     max-inline-size: 364px;
   }
 
@@ -379,17 +377,14 @@
 @media (width >= 1024px) {
 
   .header {
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr min-content 1fr;
     min-block-size: max(100vh, var(--desktop-min-height));
     margin: 0px;
-   padding-top: 20px;
+    padding-top: 20px;
   }
 
   .header__theme-menu {
     justify-self: center;
     align-self: start;
-    margin-top: 0;
   }
 
   .header__theme-menu-list {
@@ -397,13 +392,10 @@
   }
 
   .header__title {
-    justify-self: start;
     font-size: 157px;
-    font-weight: var(--font-weight-bold);
   }
 
   .header__lead {
-    align-self: center;
     max-inline-size: 491px;
   }
 
@@ -417,7 +409,7 @@
      /* Первая секция на десктопе */
   .section-why {
     grid-template-columns: 1fr 2.06fr;
-    gap:10px;
+    gap: 20px;
   }
 
   /* Вторая секция на десктопе */
@@ -430,10 +422,6 @@
   /* Третья секция на десктопе */
   .section-advices {
     grid-template-columns: 1fr 2.06fr;
-  }
-
-  .section-advices__grid {
-    grid-column: 2 / span 2;
   }
 
   .footer {
@@ -449,4 +437,4 @@
     padding-top: 26px;
   }
   }
-/* 
+  
